@@ -70,5 +70,10 @@ const styles = StyleSheet.create({
   Button_3: {},
   Image_5: {},
   Button_6: {},
+  Button_7: { color: "#df1616" },
+  View_1: {},
+  Button_3: {},
+  Image_5: {},
+  Button_6: {},
   Button_7: { color: "#df1616" }
 })
