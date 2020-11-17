@@ -34,6 +34,8 @@ export default class Blank extends React.Component {
             "https://crowdbotics-slack-dev.s3.amazonaws.com/media/project_component_resources/94228506_2626628984246508_3570203556348690432_o_6eGLDRS.jpg"
         }}
       />
+      <Button title="Press me!" onPress={() => alert("Pressed!")} />
+      <Button title="Press me!" onPress={() => alert("Pressed!")} />
     </View>
   )
 }
@@ -49,5 +51,10 @@ const styles = StyleSheet.create({
   Image_5: {},
   View_1: {},
   Button_3: {},
-  Image_5: {}
+  Image_5: {},
+  View_1: {},
+  Button_3: {},
+  Image_5: {},
+  Button_6: {},
+  Button_7: {}
 })
