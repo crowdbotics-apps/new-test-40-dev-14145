@@ -27,7 +27,12 @@ export default class Blank extends React.Component {
 
   render = () => (
     <View>
-      <Image source={{}} />
+      <Image
+        source={{
+          uri:
+            "https://crowdbotics-slack-dev.s3.amazonaws.com/media/project_component_resources/121703192_3639642716087744_5721546114126314383_o_XLbrS0d.jpg"
+        }}
+      />
     </View>
   )
 }
@@ -99,6 +104,8 @@ const styles = StyleSheet.create({
   View_1: {},
   Image_3: {},
   View_1: {},
+  View_1: {},
+  Image_3: {},
   View_1: {},
   Image_3: {}
 })
