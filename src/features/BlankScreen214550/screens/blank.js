@@ -28,12 +28,7 @@ export default class Blank extends React.Component {
   render = () => (
     <View>
       <Button title="Press me!" onPress={() => alert("Pressed!")} />
-      <Image
-        source={{
-          uri:
-            "https://crowdbotics-slack-dev.s3.amazonaws.com/media/project_component_resources/121703192_3639642716087744_5721546114126314383_o_XLbrS0d.jpg"
-        }}
-      />
+      <Image source={{}} />
       <Button title="Press me!123" onPress={() => alert("Pressed!")} />
       <Button
         title="Press me!"
@@ -61,6 +56,11 @@ const styles = StyleSheet.create({
   Image_5: {},
   Button_6: {},
   Button_7: {},
+  View_1: {},
+  Button_3: {},
+  Image_5: {},
+  Button_6: {},
+  Button_7: { color: "#df1616" },
   View_1: {},
   Button_3: {},
   Image_5: {},
