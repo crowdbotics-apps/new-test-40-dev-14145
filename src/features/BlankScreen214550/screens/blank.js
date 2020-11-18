@@ -43,6 +43,7 @@ export default class Blank extends React.Component {
         style={styles.Button_7}
         onPress={() => alert("Pressed!")}
       />
+      <Button title="Press me!" onPress={() => alert("Pressed!")} />
     </View>
   )
 }
@@ -164,5 +165,10 @@ const styles = StyleSheet.create({
   View_1: {},
   Image_3: {},
   Button_5: { fontSize: 13 },
-  Button_7: { color: "#ae1919" }
+  Button_7: { color: "#ae1919" },
+  View_1: {},
+  Image_3: {},
+  Button_5: { fontSize: 13 },
+  Button_7: { color: "#ae1919" },
+  Button_10: {}
 })
