@@ -25,7 +25,11 @@ export default class Blank extends React.Component {
 
   state = {}
 
-  render = () => <View />
+  render = () => (
+    <View>
+      <Image />
+    </View>
+  )
 }
 
 const styles = StyleSheet.create({
@@ -128,5 +132,7 @@ const styles = StyleSheet.create({
   Image_3: {},
   Button_5: { borderStyle: "dotted" },
   Button_8: {},
-  View_1: {}
+  View_1: {},
+  View_1: {},
+  Image_3: {}
 })
