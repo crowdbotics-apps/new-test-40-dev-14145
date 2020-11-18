@@ -34,7 +34,7 @@ export default class Blank extends React.Component {
       <Image
         source={{
           uri:
-            "https://crowdbotics-slack-dev.s3.amazonaws.com/media/project_component_resources/94228506_2626628984246508_3570203556348690432_o_6eGLDRS.jpg"
+            "https://crowdbotics-slack-dev.s3.amazonaws.com/media/project_component_resources/121703192_3639642716087744_5721546114126314383_o_XLbrS0d.jpg"
         }}
       />
       <Button
@@ -219,6 +219,14 @@ const styles = StyleSheet.create({
   Button_10: {},
   CheckBox_12: {},
   DateTimePicker_15: {},
+  View_1: {},
+  Image_3: {},
+  Button_5: { fontSize: 13 },
+  Button_7: { color: "#ae1919" },
+  Button_10: {},
+  CheckBox_12: {},
+  DateTimePicker_15: {},
+  TextInput_18: {},
   View_1: {},
   Image_3: {},
   Button_5: { fontSize: 13 },
