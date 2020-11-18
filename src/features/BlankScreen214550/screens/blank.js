@@ -23,7 +23,11 @@ export default class Blank extends React.Component {
     }
   }
 
-  state = { CheckBox_12: true, DateTimePicker_15: new Date("") }
+  state = {
+    CheckBox_12: true,
+    DateTimePicker_15: new Date(""),
+    TextInput_18: ""
+  }
 
   render = () => (
     <View>
@@ -57,6 +61,12 @@ export default class Blank extends React.Component {
         onDateChange={selectedDate =>
           this.setState({ DateTimePicker_15: selectedDate })
         }
+      />
+      <TextInput
+        placeholder="Sample text input placeholder"
+        multiline={true}
+        value={this.state.TextInput_18}
+        onChangeText={nextValue => this.setState({ TextInput_18: nextValue })}
       />
     </View>
   )
@@ -208,5 +218,13 @@ const styles = StyleSheet.create({
   Button_7: { color: "#ae1919" },
   Button_10: {},
   CheckBox_12: {},
-  DateTimePicker_15: {}
+  DateTimePicker_15: {},
+  View_1: {},
+  Image_3: {},
+  Button_5: { fontSize: 13 },
+  Button_7: { color: "#ae1919" },
+  Button_10: {},
+  CheckBox_12: {},
+  DateTimePicker_15: {},
+  TextInput_18: {}
 })
