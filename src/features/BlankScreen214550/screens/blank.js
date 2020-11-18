@@ -23,7 +23,7 @@ export default class Blank extends React.Component {
     }
   }
 
-  state = { CheckBox_12: true }
+  state = { CheckBox_12: true, DateTimePicker_15: new Date("") }
 
   render = () => (
     <View>
@@ -50,6 +50,13 @@ export default class Blank extends React.Component {
         uncheckedIcon="circle-o"
         checked={this.state.CheckBox_12}
         onPress={nextChecked => this.setState({ CheckBox_12: nextChecked })}
+      />
+      <DateTimePicker
+        showIcon={false}
+        date={this.state.DateTimePicker_15}
+        onDateChange={selectedDate =>
+          this.setState({ DateTimePicker_15: selectedDate })
+        }
       />
     </View>
   )
@@ -194,5 +201,12 @@ const styles = StyleSheet.create({
   Button_5: { fontSize: 13 },
   Button_7: { color: "#ae1919" },
   Button_10: {},
-  CheckBox_12: {}
+  CheckBox_12: {},
+  View_1: {},
+  Image_3: {},
+  Button_5: { fontSize: 13 },
+  Button_7: { color: "#ae1919" },
+  Button_10: {},
+  CheckBox_12: {},
+  DateTimePicker_15: {}
 })
