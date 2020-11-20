@@ -163,5 +163,10 @@ const styles = StyleSheet.create({
   Switch_7: { alignSelf: "flex-start" },
   Switch_9: { alignSelf: "flex-start" },
   Button_11: {},
+  Button_13: { color: "#f31b1b", borderColor: "#c51616" },
+  View_1: {},
+  Switch_7: { width: 50, alignSelf: "flex-start" },
+  Switch_9: { alignSelf: "flex-start" },
+  Button_11: {},
   Button_13: { color: "#f31b1b", borderColor: "#c51616" }
 })
