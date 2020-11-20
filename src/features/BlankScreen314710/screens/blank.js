@@ -23,7 +23,7 @@ export default class Blank extends React.Component {
     }
   }
 
-  state = { Switch_7: false }
+  state = { Switch_7: true }
 
   render = () => (
     <View>
@@ -70,6 +70,9 @@ const styles = StyleSheet.create({
   Switch_7: { alignSelf: "flex-start" },
   View_1: {},
   Button_5: {},
+  View_1: {},
+  Button_5: {},
+  Switch_7: { alignSelf: "flex-start" },
   View_1: {},
   Button_5: {},
   Switch_7: { alignSelf: "flex-start" },
