@@ -118,5 +118,8 @@ const styles = StyleSheet.create({
   Switch_9: { alignSelf: "flex-start" },
   View_1: {},
   Switch_7: { alignSelf: "flex-start", letterSpacing: 1 },
+  Switch_9: { alignSelf: "flex-start" },
+  View_1: {},
+  Switch_7: { alignSelf: "flex-start", letterSpacing: 0 },
   Switch_9: { alignSelf: "flex-start" }
 })
