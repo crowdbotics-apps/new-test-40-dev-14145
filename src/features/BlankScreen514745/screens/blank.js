@@ -45,6 +45,12 @@ export default class Blank extends React.Component {
         value={this.state.Switch_13}
         onValueChange={nextChecked => this.setState({ Switch_13: nextChecked })}
       />
+      <Image
+        source={{
+          uri:
+            "https://crowdbotics-slack-dev.s3.amazonaws.com/media/project_component_resources/g14670_8652957_BfZHjmE.jpg"
+        }}
+      />
     </View>
   )
 }
@@ -93,5 +99,11 @@ const styles = StyleSheet.create({
   Text_3: {},
   Image_5: {},
   Button_11: { color: "#df0707" },
-  Switch_13: { alignSelf: "flex-start" }
+  Switch_13: { alignSelf: "flex-start" },
+  View_1: { fontSize: 13 },
+  Text_3: {},
+  Image_5: {},
+  Button_11: { color: "#df0707" },
+  Switch_13: { alignSelf: "flex-start" },
+  Image_15: {}
 })
