@@ -1,4 +1,8 @@
 import axios from "axios"
+const newPluginXXXX = axios.create({
+  baseURL: "https://a.com",
+  headers: { Accept: "application/json", "Content-Type": "application/json" }
+})
 const aUTHTEST = axios.create({
   baseURL: "https://a.com",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
