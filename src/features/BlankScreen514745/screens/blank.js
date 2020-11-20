@@ -27,7 +27,7 @@ export default class Blank extends React.Component {
 
   render = () => (
     <View>
-      <Text>Sample text content</Text>
+      <Text>Sample text content with edit from code editor now.</Text>
     </View>
   )
 }
