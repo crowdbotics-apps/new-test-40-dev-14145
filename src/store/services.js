@@ -16,6 +16,9 @@ const nEWTESTAPI = axios.create({
   baseURL: "https://new-test-40-dev-14145-prod.herokuapp.com/",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
+function newpluginxxxx_get__read(action) {
+  return newPluginXXXX.get(`/`)
+}
 function api_v1_customtext_list(action) {
   return nEWTESTAPI.get(`/api/v1/customtext/`)
 }
@@ -98,6 +101,7 @@ function rest_auth_user_partial_update(action) {
   return nEWTESTAPI.patch(`/rest-auth/user/`, null, { data: action.data })
 }
 export const apiService = {
+  newpluginxxxx_get__read,
   api_v1_customtext_list,
   api_v1_customtext_read,
   api_v1_customtext_update,
