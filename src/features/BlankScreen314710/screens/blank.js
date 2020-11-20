@@ -28,7 +28,7 @@ export default class Blank extends React.Component {
   render = () => (
     <View>
       <Switch
-        trackColor={{ true: "#409EFF", false: "#C0CCDA" }}
+        trackColor={{ true: "#ff4284", false: "#C0CCDA" }}
         style={styles.Switch_7}
         value={this.state.Switch_7}
         onValueChange={nextChecked => this.setState({ Switch_7: nextChecked })}
@@ -90,6 +90,8 @@ const styles = StyleSheet.create({
   Switch_7: { alignSelf: "flex-start" },
   View_1: {},
   Button_5: {},
+  Switch_7: { alignSelf: "flex-start" },
+  View_1: {},
   Switch_7: { alignSelf: "flex-start" },
   View_1: {},
   Switch_7: { alignSelf: "flex-start" },
