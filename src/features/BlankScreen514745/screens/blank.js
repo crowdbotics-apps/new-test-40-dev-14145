@@ -23,7 +23,7 @@ export default class Blank extends React.Component {
     }
   }
 
-  state = { Switch_7: true }
+  state = {}
 
   render = () => (
     <View style={styles.View_1}>
@@ -33,12 +33,6 @@ export default class Blank extends React.Component {
           uri:
             "https://crowdbotics-slack-dev.s3.amazonaws.com/media/project_component_resources/g14670_8652957_BfZHjmE.jpg"
         }}
-      />
-      <Switch
-        trackColor={{ true: "#409EFF", false: "#C0CCDA" }}
-        style={styles.Switch_7}
-        value={this.state.Switch_7}
-        onValueChange={nextChecked => this.setState({ Switch_7: nextChecked })}
       />
       <Button
         title="Press me!"
@@ -69,5 +63,9 @@ const styles = StyleSheet.create({
   Text_3: {},
   Image_5: {},
   Switch_7: { alignSelf: "flex-start" },
+  Button_11: { color: "#df0707" },
+  View_1: { fontSize: 13 },
+  Text_3: {},
+  Image_5: {},
   Button_11: { color: "#df0707" }
 })
