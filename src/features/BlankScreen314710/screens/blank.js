@@ -41,7 +41,7 @@ export default class Blank extends React.Component {
       />
       <Button title="Press me!" onPress={() => alert("Pressed!")} />
       <Button
-        title="Press me!"
+        title="Press me!1"
         style={styles.Button_13}
         onPress={() => alert("Pressed!")}
       />
@@ -144,6 +144,11 @@ const styles = StyleSheet.create({
   Switch_7: { alignSelf: "flex-start" },
   Switch_9: { alignSelf: "flex-start" },
   Button_11: {},
+  View_1: {},
+  Switch_7: { alignSelf: "flex-start" },
+  Switch_9: { alignSelf: "flex-start" },
+  Button_11: {},
+  Button_13: { color: "#f31b1b", borderColor: "#c51616" },
   View_1: {},
   Switch_7: { alignSelf: "flex-start" },
   Switch_9: { alignSelf: "flex-start" },
