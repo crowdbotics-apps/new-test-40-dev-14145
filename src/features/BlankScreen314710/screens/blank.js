@@ -23,7 +23,7 @@ export default class Blank extends React.Component {
     }
   }
 
-  state = { Switch_7: false, Switch_9: true }
+  state = { Switch_7: false }
 
   render = () => (
     <View>
@@ -32,18 +32,6 @@ export default class Blank extends React.Component {
         style={styles.Switch_7}
         value={this.state.Switch_7}
         onValueChange={nextChecked => this.setState({ Switch_7: nextChecked })}
-      />
-      <Switch
-        trackColor={{ true: "#409EFF", false: "#C0CCDA" }}
-        style={styles.Switch_9}
-        value={this.state.Switch_9}
-        onValueChange={nextChecked => this.setState({ Switch_9: nextChecked })}
-      />
-      <Button title="Press me!" onPress={() => alert("Pressed!")} />
-      <Button
-        title="Press me!1"
-        style={styles.Button_13}
-        onPress={() => alert("Pressed!")}
       />
     </View>
   )
@@ -183,5 +171,7 @@ const styles = StyleSheet.create({
   Switch_7: { width: 0, alignSelf: "flex-start" },
   Switch_9: { alignSelf: "flex-start" },
   Button_11: {},
-  Button_13: { color: "#f31b1b", borderColor: "#c51616" }
+  Button_13: { color: "#f31b1b", borderColor: "#c51616" },
+  View_1: {},
+  Switch_7: { width: 0, alignSelf: "flex-start" }
 })
