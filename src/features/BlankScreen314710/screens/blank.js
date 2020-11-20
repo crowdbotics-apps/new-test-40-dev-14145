@@ -172,5 +172,7 @@ const styles = StyleSheet.create({
   View_1: {},
   Button_9: {},
   View_1: { fontSize: 13 },
+  Button_9: {},
+  View_1: { fontSize: 12 },
   Button_9: {}
 })
