@@ -26,7 +26,7 @@ export default class Blank extends React.Component {
   state = {}
 
   render = () => (
-    <View>
+    <View style={styles.View_1}>
       <Button title="Press me!" onPress={() => alert("Pressed!")} />
     </View>
   )
@@ -176,5 +176,7 @@ const styles = StyleSheet.create({
   View_1: { fontSize: 12 },
   Button_9: {},
   View_1: {},
+  Button_9: {},
+  View_1: { fontSize: 13 },
   Button_9: {}
 })
