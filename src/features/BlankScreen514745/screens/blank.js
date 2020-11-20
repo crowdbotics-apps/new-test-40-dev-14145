@@ -26,7 +26,7 @@ export default class Blank extends React.Component {
   state = { Switch_7: true }
 
   render = () => (
-    <View>
+    <View style={styles.View_1}>
       <Text>Sample text content</Text>
       <Image
         source={{
@@ -53,6 +53,10 @@ const styles = StyleSheet.create({
   View_1: {},
   Text_3: {},
   View_1: {},
+  Text_3: {},
+  Image_5: {},
+  Switch_7: { alignSelf: "flex-start" },
+  View_1: { fontSize: 13 },
   Text_3: {},
   Image_5: {},
   Switch_7: { alignSelf: "flex-start" }
