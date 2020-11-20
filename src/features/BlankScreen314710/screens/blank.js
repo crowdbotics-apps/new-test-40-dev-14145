@@ -104,5 +104,7 @@ const styles = StyleSheet.create({
   View_1: {},
   Switch_7: { alignSelf: "flex-start" },
   View_1: {},
-  Switch_7: { alignSelf: "flex-start", lineHeight: 13 }
+  Switch_7: { alignSelf: "flex-start", lineHeight: 13 },
+  View_1: {},
+  Switch_7: { alignSelf: "flex-start", lineHeight: 12 }
 })
