@@ -27,7 +27,6 @@ export default class Blank extends React.Component {
 
   render = () => (
     <View>
-      <Button title="Press me!12345" onPress={() => alert("Pressed!")} />
       <Switch
         style={styles.Switch_7}
         value={this.state.Switch_7}
@@ -90,5 +89,7 @@ const styles = StyleSheet.create({
   Switch_7: { alignSelf: "flex-start" },
   View_1: {},
   Button_5: {},
+  Switch_7: { alignSelf: "flex-start" },
+  View_1: {},
   Switch_7: { alignSelf: "flex-start" }
 })
