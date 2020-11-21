@@ -35,7 +35,7 @@ export default class Blank extends React.Component {
         }}
       />
       <Button
-        title="Press me!1"
+        title="Press me!12"
         style={styles.Button_11}
         onPress={() => alert("Pressed!")}
       />
@@ -100,6 +100,12 @@ const styles = StyleSheet.create({
   Image_5: {},
   Button_11: { color: "#df0707" },
   Switch_13: { alignSelf: "flex-start" },
+  View_1: { fontSize: 13 },
+  Text_3: {},
+  Image_5: {},
+  Button_11: { color: "#df0707" },
+  Switch_13: { alignSelf: "flex-start" },
+  Image_15: {},
   View_1: { fontSize: 13 },
   Text_3: {},
   Image_5: {},
