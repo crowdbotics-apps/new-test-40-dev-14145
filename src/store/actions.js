@@ -357,6 +357,7 @@ export const rest_auth_user_partial_updateFailed = (error, starter) => ({
   error,
   starter
 })
+
 export const newpluginxxxx_post__create = (
   new_param,
   new_param_2,
@@ -369,11 +370,13 @@ export const newpluginxxxx_post__create = (
   new_param_4,
   data
 })
+
 export const newpluginxxxx_post__createSucceeded = (response, starter) => ({
   type: types.NEWPLUGINXXXX_POST__CREATE_SUCCEEDED,
   response,
   starter
 })
+
 export const newpluginxxxx_post__createFailed = (error, starter) => ({
   type: types.NEWPLUGINXXXX_POST__CREATE_FAILED,
   error,
