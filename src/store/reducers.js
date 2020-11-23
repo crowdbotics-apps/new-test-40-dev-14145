@@ -4,9 +4,9 @@ const initialState = { newPluginXXXX: [], nEWTESTAPI: [] }
 
 export default function apiReducer(state = initialState, action) {
   switch (action.type) {
-    case types.NEWPLUGINXXXX_GET__READ:
-    case types.NEWPLUGINXXXX_GET__READ_SUCCEEDED:
-    case types.NEWPLUGINXXXX_GET__READ_FAILED:
+    case types.NEWPLUGINXXXX_POST__CREATE:
+    case types.NEWPLUGINXXXX_POST__CREATE_SUCCEEDED:
+    case types.NEWPLUGINXXXX_POST__CREATE_FAILED:
       return Object.assign({}, state, {
         newPluginXXXX: [...state.newPluginXXXX, action.response]
       })

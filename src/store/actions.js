@@ -1,23 +1,5 @@
 import * as types from "./constants"
 
-export const newpluginxxxx_get__read = (new_param, new_param_2) => ({
-  type: types.NEWPLUGINXXXX_GET__READ,
-  new_param,
-  new_param_2
-})
-
-export const newpluginxxxx_get__readSucceeded = (response, starter) => ({
-  type: types.NEWPLUGINXXXX_GET__READ_SUCCEEDED,
-  response,
-  starter
-})
-
-export const newpluginxxxx_get__readFailed = (error, starter) => ({
-  type: types.NEWPLUGINXXXX_GET__READ_FAILED,
-  error,
-  starter
-})
-
 export const api_v1_customtext_list = () => ({
   type: types.API_V1_CUSTOMTEXT_LIST
 })
@@ -372,6 +354,28 @@ export const rest_auth_user_partial_updateSucceeded = (response, starter) => ({
 
 export const rest_auth_user_partial_updateFailed = (error, starter) => ({
   type: types.REST_AUTH_USER_PARTIAL_UPDATE_FAILED,
+  error,
+  starter
+})
+export const newpluginxxxx_post__create = (
+  new_param,
+  new_param_2,
+  new_param_4,
+  data
+) => ({
+  type: types.NEWPLUGINXXXX_POST__CREATE,
+  new_param,
+  new_param_2,
+  new_param_4,
+  data
+})
+export const newpluginxxxx_post__createSucceeded = (response, starter) => ({
+  type: types.NEWPLUGINXXXX_POST__CREATE_SUCCEEDED,
+  response,
+  starter
+})
+export const newpluginxxxx_post__createFailed = (error, starter) => ({
+  type: types.NEWPLUGINXXXX_POST__CREATE_FAILED,
   error,
   starter
 })

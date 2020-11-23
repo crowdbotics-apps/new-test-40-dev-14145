@@ -1,16 +1,19 @@
 import { put, call, all, spawn, takeEvery } from "redux-saga/effects"
 import { apiService } from "./services"
 import * as types from "./constants"
-function* newpluginxxxx_get__readWorker(action) {
+function* newpluginxxxx_post__createWorker(action) {
   try {
-    const result = yield call(apiService.newpluginxxxx_get__read, action)
-    yield put(actions.newpluginxxxx_get__readSucceeded(result, action))
+    const result = yield call(apiService.newpluginxxxx_post__create, action)
+    yield put(actions.newpluginxxxx_post__createSucceeded(result, action))
   } catch (err) {
-    yield put(actions.newpluginxxxx_get__readFailed(err, action))
+    yield put(actions.newpluginxxxx_post__createFailed(err, action))
   }
 }
-function* newpluginxxxx_get__readWatcher() {
-  yield takeEvery(types.NEWPLUGINXXXX_GET__READ, newpluginxxxx_get__readWorker)
+function* newpluginxxxx_post__createWatcher() {
+  yield takeEvery(
+    types.NEWPLUGINXXXX_POST__CREATE,
+    newpluginxxxx_post__createWorker
+  )
 }
 function* api_v1_customtext_listWorker(action) {
   try {
@@ -298,7 +301,7 @@ function* rest_auth_user_partial_updateWatcher() {
 }
 export default function* rootSaga() {
   const sagas = [
-    newpluginxxxx_get__readWatcher,
+    newpluginxxxx_post__createWatcher,
     api_v1_customtext_listWatcher,
     api_v1_customtext_readWatcher,
     api_v1_customtext_updateWatcher,
