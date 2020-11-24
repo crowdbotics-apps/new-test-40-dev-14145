@@ -26,7 +26,7 @@ export default class Blank extends React.Component {
   state = {}
 
   render = () => (
-    <View>
+    <View style={styles.View_1}>
       <View style={styles.View_2}>
         <View />
         <View />
@@ -40,7 +40,12 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   View_1: {},
+  View_2: { flexDirection: "row" },
+  View_3: {},
+  View_4: {},
+  View_1: { color: "#d11010" },
   View_2: { flexDirection: "row" },
   View_3: {},
   View_4: {}
