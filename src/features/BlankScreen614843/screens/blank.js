@@ -31,6 +31,10 @@ export default class Blank extends React.Component {
         <View />
         <View />
       </View>
+      <View>
+        <View />
+        <View />
+      </View>
     </View>
   )
 }
@@ -48,5 +52,12 @@ const styles = StyleSheet.create({
   View_1: { color: "#d11010" },
   View_2: { flexDirection: "row" },
   View_3: {},
-  View_4: {}
+  View_4: {},
+  View_1: { color: "#d11010" },
+  View_2: { flexDirection: "row" },
+  View_3: {},
+  View_4: {},
+  View_11: {},
+  View_12: {},
+  View_13: {}
 })
